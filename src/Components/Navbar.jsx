@@ -31,7 +31,9 @@ export default Navbar
 const DIV = styled.div`
 
 nav{
+  z-index: 999;
   /* background: linear-gradient(to bottom right, #000000, #160A16, white); */
+  background-color: #000000;
   color: #FFFFFF;
   position: absolute;
   width: 100%;
