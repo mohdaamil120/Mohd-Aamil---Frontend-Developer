@@ -140,11 +140,6 @@ const DIV = styled.div`
   gap: 49px;
   display: flex;
 }
-/* 
-.right>div>img{
-  border-radius: 20px;
-  margin-bottom: 30px;
-} */
 
 .colm3{
   width: 130.31px;

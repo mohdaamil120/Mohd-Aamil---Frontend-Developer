@@ -36,8 +36,10 @@ nav{
   background-color: #000000;
   color: #FFFFFF;
   position: absolute;
+  position: fixed;
   width: 100%;
   background: transparent;
+  backdrop-filter: blur(10px);
   padding: 25px 50px;
   border-bottom: 0.25px solid lightgray;
 }
@@ -63,7 +65,7 @@ nav{
     line-height: 25.2px;
     letter-spacing: 0.5em;
     text-align: left;
-
+    cursor: pointer;
   }
 
   .options{
@@ -76,7 +78,7 @@ nav{
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-   
+   cursor: pointer;
    }
   
   button{
