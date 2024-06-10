@@ -74,14 +74,11 @@ export default MidSection
 
 const DIV = styled.div`
     .container{
-        /* width: 1,440px; */
-        /* height: 556.72px; */
         z-index: -111;
         top: 172.42px;
         left: 0.46px;
         padding: 0px 177px 0px 177px;
         /* border: 1px solid green; */
-        margin: auto;
         background: linear-gradient(135deg, #1B2236 0%, #130D17 50%, #0D1B22 100%);
         height: 100vh;
         max-width: 1312px;
@@ -89,14 +86,14 @@ const DIV = styled.div`
     }
 
     .pics{
-        width: 100%;
+        width: 130%;
         height: 556.72px;
         padding: 134.36px 174.5px 134.36px 174.5px;
         /* border: 1px solid red; */
         display:flex;
-        gap: 10px;
-        margin: auto;
-        
+        gap: 30px;
+        /* margin: auto; */
+        margin-left: -140px;
     }
 
     .pics>div{
@@ -106,13 +103,17 @@ const DIV = styled.div`
 
     .pics img{
       border-radius: 10px;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
 
     .text{
-        width:1,085px;
+        width:780px;
         height: 288px;
         padding: 80px 10.33px 80px 10.31px;
+         /* border: 1px solid red; */
+         position: relative;
+         top: -300px;
+         left: 50px;
     }
 
     .text>div{
@@ -143,23 +144,18 @@ const DIV = styled.div`
     -webkit-background-clip: text;
     color: transparent;
   }
-  /* .pics:nth-child(2) {
-  
-    top: 32.58px;
-    left: -0.46px;
+  .pics>div:nth-child(odd) {
     padding: 63.7px 0px 0px 0px;
     gap: 34.4px;
     opacity: 0.5; 
     position: relative; 
 }
 
-.pics:nth-child(1) {
-    top: 23.58px;
-    left: 799.55px;
-    gap: 34.4px;
+.pics>div:nth-child(even) {
+    top: 10.58px;
     opacity: 0.5; 
     position: relative; 
-} */
+}
 
 
 `
