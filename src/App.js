@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import MidSection from './Components/MidSection';
 import Roadmap from './Components/Roadmap';
+import Tokenomics from './Components/Tokenomics';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Banner/>
       <Features/>
+      <Tokenomics/>
       <Roadmap/>
       <Footer/>
     </>
