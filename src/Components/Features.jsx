@@ -40,17 +40,17 @@ function Features() {
                            <h1>Generate or Write your Script</h1>
                         </div>
                     </div>
-                    <div className='girl'>
+                    <div className='girl keyboard'>
                         <img src={Keyboard} alt="" />
                     </div>
                 </div>
-                <div className='first'>
+                <div className='first AI'>
                     <div className='outfit'>
                         <div>
                            <h1>AI-Powered Voice Genrator</h1>
                         </div>
                     </div>
-                    <div className='shoes'>
+                    <div className='shoes AIPIC'>
                         <img src={AIPIC} alt="" />
                     </div>
                 </div>
@@ -96,6 +96,10 @@ const DIV = styled.div`
         border-radius: 15px ;
         background: linear-gradient(180deg, #000000 -20%, #352C2E 30%);
 
+    }
+
+    .AI{
+        width: 463px;
     }
     .sec{
         width: 640px;
@@ -172,5 +176,20 @@ const DIV = styled.div`
     border-radius: 0px 0px 24px 24px;
     position: relative;
     top: 86px;
+   }
+
+   .keyboard{
+    position: relative;
+    top: -38px
+   }
+
+   .AIPIC{
+    position: relative;
+    top:40px;
+    border-radius: 0px 0px 50px 24px;
+   }
+
+   .AIPIC>img{
+    border-radius: 0px 0px 24px 24px;
    }
 `
