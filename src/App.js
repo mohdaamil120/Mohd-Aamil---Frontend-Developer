@@ -5,6 +5,7 @@ import Banner from './Components/Banner';
 import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import MidSection from './Components/MidSection';
+import Roadmap from './Components/Roadmap';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MidSection/>
       <About/>
       <Banner/>
+      <Roadmap/>
       <Footer/>
     </>
   );
