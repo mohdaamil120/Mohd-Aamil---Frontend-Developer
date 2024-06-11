@@ -22,7 +22,7 @@ function Roadmap() {
                         <li>Serum TRON solana tether holo crypto. Flow eCash amp EOS digibyte stellar.</li>
                     </ul>    
                 </div>
-                <div className='pic'>
+                <div className='pic' data-aos="slide-left"  data-aos-easing="ease-in-out">
                     <img src={U} alt="" />
                 </div>
             </div>
@@ -36,7 +36,7 @@ function Roadmap() {
                         <li>Hive stellar velas flow cardano.</li>
                     </ul>    
                 </div>
-                <div className='pic'>
+                <div className='pic' data-aos="slide-left"  data-aos-easing="ease-in-out">
                     <img src={F} alt="" />
                 </div>
             </div>
@@ -49,7 +49,7 @@ function Roadmap() {
                         <li>Celsius crypto bancor nexo litecoin decentraland crypto.</li>
                     </ul>    
                 </div>
-                <div className='pic'>
+                <div className='pic' data-aos="slide-left"  data-aos-easing="ease-in-out">
                     <img src={P} alt="" />
                 </div>
             </div>

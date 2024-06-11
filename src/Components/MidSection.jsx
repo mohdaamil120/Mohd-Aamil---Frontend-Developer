@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components'
 import a from "../images/0.jpg"
 import b from "../images/1.jpg"
@@ -20,10 +20,12 @@ import q from "../images/16.jpg"
 import r from "../images/17.jpg"
 
 function MidSection() {
+ 
+
   return (
     <DIV>
       <div className='container'>
-        <div className='pics'>
+        <div className='pics' data-aos="fade-up" data-aos-duration="400" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-offset="500">
           <div className='colm1'>
           <img src={a} alt="" />
             <img src={b} alt="" />

@@ -1,4 +1,7 @@
-import React from 'react'
+import React, { useEffect ,useState} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import styled from 'styled-components';
 import Navbar from './Navbar'
 import Elon from "../images/Picture.jpg"
@@ -12,6 +15,12 @@ import EIns from "../images/Picture (7).jpg"
 import Obama from "../images/Picture (8).jpg"
 
 function Hero() {
+ 
+  useEffect(() => {
+    AOS.init({ duration: 1500 }); 
+  }, []);
+  
+
   return (
      
     <DIV>
@@ -29,7 +38,7 @@ function Hero() {
             </div>
         </div>
         <div className='right'>
-          <div className='colm1'>
+          <div className='colm1' data-aos="fade-up" >
             <img src={Elon} alt="" />
             <img src={Bill} alt="" />
             <img src={Billl} alt="" />
@@ -39,7 +48,7 @@ function Hero() {
             <img src={FB}alt="" />
             <img src={Ch} alt="" />
           </div>
-          <div className='colm3'>
+          <div className='colm3' data-aos="fade-up">
             <img src={Trumpp} alt="" />
             <img src={EIns} alt="" />
             <img src={Obama} alt="" />
@@ -176,4 +185,12 @@ const DIV = styled.div`
   margin-bottom: 30px;
 }
 `
+
+
+
+
+
+
+
+
 
