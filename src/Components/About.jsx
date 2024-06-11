@@ -29,12 +29,12 @@ const DIV = styled.div`
     .container{
       background: linear-gradient(135deg, #141B28 20%, #000000 50%, #190C19 100%);
       /* border: 1px solid red; */
-      width: 1452px;
+      max-width: 1312px;
       height: 659px;
       padding: 0px 4px 0px 4px;
       gap: 32px;
       display: flex;
-
+      overflow: hidden;
     }
 
     .img_con{
@@ -42,7 +42,7 @@ const DIV = styled.div`
       width: 816px;
       height: 659px;
       position: relative;
-      left: -30px;
+      /* left: -30px; */
       padding: 75.86px 0px 75.14px 0px;
     }
     .img_con>img{
@@ -57,7 +57,7 @@ const DIV = styled.div`
       width: 596px;
       height: 352px;
       position: relative;
-      left: -30px;
+      /* left: -30px; */
       top: 200px;
     }
     .about > h1{
