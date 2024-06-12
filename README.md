@@ -49,6 +49,23 @@ npm install my-project
 cd my-project
 npm start
 
+```
+
+# Screenstots
+
+(** Hero **)
+
+![Alt Text]()
+
+(** Features **)
+
+![Alt Text]()
+
+(** Tokenomics **)
+
+![Alt Text]()
 
 
+(** Roadmap **)
 
+![Alt Text]()
